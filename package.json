@@ -1,0 +1,40 @@
+{
+  "name": "axios-curlirize-ts",
+  "version": "1.0.0",
+  "description": "This package provides a utility to generate cURL commands from Axios requests using an interceptor. It helps with debugging and logging HTTP requests in an easily reproducible cURL format.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "rm -rf dist && pnpm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thongdn-it/axios-curlirize-ts.git"
+  },
+  "homepage": "https://github.com/thongdn-it/axios-curlirize-ts#readme",
+  "keywords": [
+    "axios",
+    "curl",
+    "curlirize",
+    "logger",
+    "debug"
+  ],
+  "author": {
+    "name": "Thong Dang",
+    "email": "thongdn.it@gmail.com",
+    "url": "https://github.com/thongdn-it"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "axios": ">=1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist"
+  ]
+}
