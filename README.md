@@ -2,6 +2,9 @@
 
 This package provides a utility to generate cURL commands from Axios requests using an interceptor. It helps with debugging and logging HTTP requests in an easily reproducible cURL format.
 
+[![npm][npm_image_url]][npm_url]
+[![bundlephobia][bundlephobia_image_url]][bundlephobia_url]
+
 ## Installation
 
 ```bash
